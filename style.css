@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner{
+	top: 100px;
+	display: flex;
+
+}
+#banner{
+	width: 100%;
+	position: relative;
+} 
+
+#logo{
+	width: 10%;
+	left: 20pxB;
+	position: absolute;
+	z-index: 2;
+}
+#menuicon{
+	width: 2%;
+}
+#signincon{
+	width: 5%;
+}
+	
+h1{
+	
+	font-family: 'tourney', cursive;
+	position: absolute;
+	font-size: 260%;
+	transform: translate(25%,-200);
+	background color:blue ;
+}
+h2{
+
+	position: absolute;
+	font-size: 	200%;
+	padding: 20px;
+}
+p{
+
+	font-size: 150%;
+	color: skyblue;
+}
+a{
+	text-decoration:none;
+}
+.place{
+	height: 330px;
+	width: 330px;
+	border-radius:50px ;
+	object-fit: cover;
+
+}
+
+li {
+	list-style-type:none;
+	padding: 10px;
+}
+
+#logo, #topBanner>div,h1, #topBanner >h2 {
+	position:absolute;
+}
+#topBanner > div {
+	transform: translate(200%,60%);
+}
+#topBanner> h2 {
+	transition: translate(35%,500%);
+	background-color: white ;
+	border-radius: 20px;
+	padding: 5px; 
+}
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+}
+#navigationMenu{
+	display: flex ;
+	justify-content: space-evenly;
+}
